@@ -240,7 +240,4 @@ if (isset($page) and $page == 'Streamline processes to help tackle the COVID-19 
 	$pageImage = "assets/logo.png";
 }
 
-
-
-
 ?>
