@@ -1,6 +1,6 @@
 <?php 
 // $url = 'https://sfrmedical.com/'; 
-$url = 'https://localhost/sfrweb/'; 
+$url = 'https://vikas819.github.io/sfrmedical_website.github.io/'; 
 ?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js" manifest="demo.appcache">
