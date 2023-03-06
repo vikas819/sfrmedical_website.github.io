@@ -50,7 +50,7 @@ include('header.php');?>
                                         </div>
                                     </div>
                                     <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                        <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
+<!--                                         <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
                                                     <div class="wpb_single_image wpb_content_element vc_align_left vc_shadow">
@@ -61,7 +61,7 @@ include('header.php');?>
                                                     <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span></div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
