@@ -88,30 +88,6 @@ if (isset($page) and $page == 'Our solicitors') {
 	$pageImage = "assets/logo.png";
 }
 
-if (isset($page) and $page == 'For solicitor - Our purpose') { 
-	$pageUrl   = "for-solicitor-our-purpose";
-	$pageTitle = "For Solicitor - Our Purpose";
-	$pageDesc  = "SFR Medical, a London-based, social impact MedTech company, aims to reform the complex and inefficient interface between criminal justice and healthcare. ";
-	$pageKeys  = "SFR Medical, social impact, medtech, medical evidence, social impact, crime, victims, criminal justice, public, road traffic accidents, personal injury, clinical negligence claims, claims, injury";
-	$pageImage = "assets/logo.png";
-}
-
-if (isset($page) and $page == 'For solicitor - Our solution') { 
-	$pageUrl   = "for-solicitor-our-solution";
-	$pageTitle = "For Solicitor - Our Solution";
-	$pageDesc  = "SFR Medical, a London-based, social impact MedTech company, aims to reform the complex and inefficient interface between criminal justice and healthcare. ";
-	$pageKeys  = "SFR Medical, social impact, medtech, medical evidence, social impact, crime, victims, criminal justice, public, road traffic accidents, personal injury, clinical negligence claims, claims, injury";
-	$pageImage = "assets/logo.png";
-}
-
-if (isset($page) and $page == 'For solicitor - Our products') {
-	$pageUrl   = "for-solicitor-our-Products";
-	$pageTitle = "For Solicitor - Our Products";
-	$pageDesc  = "We provide medical evidence that officers can use to charge suspects in cases of volent crime. Read how our service works and what else we can do for you. ";
-	$pageKeys  = "SFR Medical, SFR1, SFR2, MG11, medical evidence, medical notes, criminal justice, violent crimes, expert opinions, justice, crime, evidence, road traffic accidents, personal injury, clinical negligence claims, claims, injury";
-	$pageImage = "assets/logo.png";
-}
-
 if (isset($page) and $page == 'Testimonials') {
 	$pageUrl   = "testimonials";
 	$pageTitle = "What Our Clients Say";
@@ -132,7 +108,7 @@ if (isset($page) and $page == 'Awards and recognition') {
 	$pageUrl   = "awards-and-recognition";
 	$pageTitle = "Awards & recognition";
 	$pageDesc  = "We're honoured (and humbled) to be recognised by a number of prominant UK institutions. ";
-	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK ";//Santander University
+	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK "; // ,Santander University
 	$pageImage = "assets/logo.png";
 }
 
@@ -256,7 +232,6 @@ if (isset($page) and $page == 'Medical evidence reporting must be reformed') {
 	$pageImage = "assets/logo.png";
 }
 
-
 if (isset($page) and $page == 'Streamline processes to help tackle the COVID-19 court backlog') {
 	$pageUrl   = "streamline-processes-to-help-tackle-the-covid-court-backlog";
 	$pageTitle = "Streamline processes to help tackle the COVID-19 court backlog";
@@ -265,7 +240,12 @@ if (isset($page) and $page == 'Streamline processes to help tackle the COVID-19 
 	$pageImage = "assets/logo.png";
 }
 
-
-
+if (isset($page) and $page == 'The importance of expert witnesses in the UK') {
+	$pageUrl   = "the-importance-of-expert-witnesses-in-the-UK";
+	$pageTitle = "The importance of expert witnesses in the UK";
+	$pageDesc  = "An expert witness is an independent party who - due to their gained knowledge through education, training, and professional experiences – has the right expertise";
+	$pageKeys  = "expert witness, evidence, court cases, criminal cases, cases, injury, legal professionals, judges, juries";
+	$pageImage = "assets/logo.png";
+}
 
 ?>
