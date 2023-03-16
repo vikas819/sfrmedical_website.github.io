@@ -132,7 +132,7 @@ if (isset($page) and $page == 'Awards and recognition') {
 	$pageUrl   = "awards-and-recognition";
 	$pageTitle = "Awards & recognition";
 	$pageDesc  = "We're honoured (and humbled) to be recognised by a number of prominant UK institutions. ";
-	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK, Santander University";
+	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK ";//Santander University
 	$pageImage = "assets/logo.png";
 }
 
