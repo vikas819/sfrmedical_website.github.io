@@ -1,11 +1,8 @@
-<?php 
-// $url = 'https://sfrmedical.com/'; 
-$url = 'https://vikas819.github.io/sfrmedical_website.github.io/'; 
-?>
+<?php $url = 'https://sfrmedical.com/'; ?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js" manifest="demo.appcache">
 <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml" content-type="text/html" charset="utf-8" />
+    <meta http-equiv="content-type" content="application/xhtml+xml" charset="utf-8" />
     <title><?php echo @$pageTitle;?> | SFR Medical </title>
     <meta http-equiv="Cache-control" content="private">
     <meta name="title" content="<?php echo @$pageTitle; ?> | SFR Medical" />
@@ -41,7 +38,7 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $url;?>assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="<?php echo $url;?>assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $url;?>assets/favicon/favicon-16x16.png">
-    <!-- <link rel="manifest" href="<?php echo $url;?>assets/favicon/manifest.json"> -->
+    <!--<link rel="manifest" href="<?php echo $url;?>assets/favicon/manifest.json">-->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php echo $url;?>assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -260,7 +257,7 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
 
         <div id="site-topbar" class="site-topbar">
             <div class="site-topbar-inner wrap">
-                <div class="topbar-text" style="">
+                <div class="topbar-text" >
                     <!-- COVID-19 crisis: SFR Medical remains open and fully operational – please reach out if you need any help getting medical evidence. We are here to support all NHS staff and UK Police officers.<br>
                     All SFRs where the victim works for a UK police force, the CPS, or the NHS are free of charge. It’s our way of saying thank you to all front-line workers. -->
 
@@ -276,7 +273,7 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
                     </div>
 
                     <div class="topbar-right">
-                        <div class="topbar-text" style="text-align: center;">
+                        <div class="topbar-text" >
                             <span style="color:#fff;">
                             </span>
                             <br><i class="fa fa-phone"></i>Need help? Talk to an expert <a title="" href="tel:+441234943111">+44 1234 943 111</a>
@@ -337,7 +334,14 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For public our products" href="<?php echo $url;?>for-public-our-products">Our products</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor" href="#">For solicitor</a>
+                                        <ul class="dw-sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our purpose" href="<?php echo $url;?>for-solicitor-our-purpose">Our purpose </a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our solution" href="<?php echo $url;?>for-solicitor-our-solution">Our solution</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our products" href="<?php echo $url;?>for-solicitor-our-products">Our products</a></li>
+                                        </ul>
+                                    </li>
+                                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>-->
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-flyout dw-mega-menu-hover item-553"><a title="About us" href="#">ABOUT US <i class="fa fa-angle-down"></i></a>
@@ -395,16 +399,16 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
         </div>
         
         <div id="site-header-sticky" class=" site-header-sticky header-brand-left header-shadow">
-            <div class="topbar-text" style="">
+            <div class="topbar-text" >
                <!--  COVID-19 crisis: SFR Medical remains open and fully operational – please reach out if you need any help getting medical evidence. We are here to support all NHS staff and UK Police officers.<br>
                 All SFRs where the victim works for a UK police force, the CPS, or the NHS are free of charge. It’s our way of saying thank you to all front-line workers. -->
             </div>
             <div class="site-header-inner wrap">
-                <div class="header-brand" style="">
+                <div class="header-brand" >
                     <a title="SFR Medical" href="<?php echo $url;?>">
                         <img src="assets/logo.png" alt="SFR Medical" title="SFR Medical" class="logo logoDark" /> 
                     </a>
-                    <div class="header-widget" style="">
+                    <div class="header-widget" >
                         <div id="custom_html-2" class="widget_text widget-odd widget-last widget-first widget-1 widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
                                 <!-- <div class="info-box">
@@ -412,7 +416,7 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
                                     <a title=""  class="contact-info" href="mailto:contact@sfrmedical.com">contact@sfrmedical.com</a> 
                                     <br><a title=""  class="contact-info" href="tel:+441234943111">or +44 1234 943 111</a>
                                 </div> -->
-                                <div class="social-icons">
+                                <div class="social-icons" >
                                     <a title="SFR Medical" href="https://www.facebook.com/sfrmedical/" data-tooltip="" target="_blank"><i class="fa fa-facebook-f"></i></a>
                                     <a title="SFR Medical" href="https://twitter.com/sfrmedical" data-tooltip="" target="_blank"><i class="fa fa-twitter"></i></a>
                                     <!--<a title="SFR Medical" href="https://www.instagram.com/sfrmedical/" data-tooltip="" target="_blank"><i class="fa fa-instagram"></i></a>-->
@@ -448,7 +452,14 @@ $url = 'https://vikas819.github.io/sfrmedical_website.github.io/';
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For public our products" href="<?php echo $url;?>for-public-our-products">Our products</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor" href="#">For solicitor</a>
+                                    <ul class="dw-sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our purpose" href="<?php echo $url;?>for-solicitor-our-purpose">Our purpose </a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our solution" href="<?php echo $url;?>for-solicitor-our-solution">Our solution</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our products" href="<?php echo $url;?>for-solicitor-our-products">Our products</a></li>
+                                    </ul>
+                                </li>
+                                <!--<li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>-->
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-flyout dw-mega-menu-hover item-553"><a title="About us" href="#">ABOUT US <i class="fa fa-angle-down"></i></a>

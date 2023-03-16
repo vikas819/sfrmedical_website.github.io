@@ -14,8 +14,8 @@ include('header.php');?>
             <div id="content-body" class="content-body">
                 <div class="content-body-inner wrap">
                     <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                     </div>
                     <!-- The main content -->
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
@@ -27,7 +27,6 @@ include('header.php');?>
                                 <p>There are thousands of victims of violent crimes in the UK every year and medical evidence is needed to charge suspects. To date, obtaining medical evidence has been problematic, tedious and cumbersome. These issues lead to delays, miscarriages of justice and more violent crimes, either as retaliatory actions or against new victims.</p>
 
                                 <p>Historically, this process took approximately 2-3 months. But why? We investigated and found that it was likely due to a confluence of factors, including:</p>
-
 
                                 <ul>
                                     <li>since 2010, there has been a 15% decline in police staffing while overall crimes rates have held steady  </li>
@@ -43,12 +42,8 @@ include('header.php');?>
 
                                 <p>Dr Johann Grundlingh is an NHS Emergency Medicine and Intensive Care Consultant who has experienced the impact of hospitals not providing medical assault reports in a timely and accurate fashion. He’s worked with multiple police forces on numerous reports but always thought there was a better way to do things. After getting his MBA in 2018, he and classmate Suyash Shrivastava started SFR Medical and piloted different approaches during the first year of business. Through that experience, they realized that addressing the controllable pain points and using a different but well-known reporting template (the SFR) could drastically improve the situation for everyone involved.</p>
 
-
-                                
-
-
                                 <h3>Our business was born.</h3>
-                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                 <p>We know that the police have more important things to do with their time than constantly chase medical reports. We also know that doctors would prefer to see and help patients rather than get bogged down by paperwork. So our solution is two-fold: <br>(1) put a single point of contact into place, our dedicated Client Relationship Managers whose sole job is to manage the workflow, and <br>(2) recruit a team of freelance medical transcribers who can write the reports on their own time, in a place of their choosing while being confident that they will get paid for the work they produce.</p>
                                 <p>Thank you for giving us the opportunity to understand how we can help you.</p>
                                 <p><a class="button  " style="text-decoration: none;" href="assets/SFR Medical Process.pdf" download><i class="fa fa-download"></i>&nbsp;SFR MEDICAL PROCESS</a></p>
@@ -76,9 +71,9 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-left">
                                                 
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                     <a class="next_prev" href="<?php echo $url;?>join-us"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Join us</a>
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 
                                             </div>
                                         </div>
@@ -87,9 +82,9 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-right" >
                                                 
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                     <a class="next_prev" href="<?php echo $url;?>our-team">Our team&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 
                                             </div>
                                         </div>

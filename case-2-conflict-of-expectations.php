@@ -13,8 +13,8 @@ include('header.php');?>
             <div id="content-body" class="content-body">
                 <div class="content-body-inner wrap">
                     <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                     </div>
                     <!-- The main content -->
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">

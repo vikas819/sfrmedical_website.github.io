@@ -1,4 +1,4 @@
-<?php $page = "For police - Our products";
+<?php $page = "For solicitor - Our purpose";
 include('meta_tags.php');
 include('header.php');?>
 
@@ -7,15 +7,15 @@ include('header.php');?>
             <div class="content-header content-header-inline wrap">
                 <div class="content-header-inner wrap ">
                     <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Our products</h2>
+                    <h2 class="main-headig">Our purpose</h2>
                     <div class="breadcrumbs">
                         <div class="breadcrumbs-inner">
                             <!-- Breadcrumb NavXT 6.2.1 -->
                             <span property="itemListElement" typeof="ListItem">
-                                <span property="name">For police</span><meta property="position" content="1" />
+                                <span property="name">For solicitors</span><meta property="position" content="1" />
                             </span>
                             <span property="itemListElement" typeof="ListItem">
-                                <span property="name">Our products</span><meta property="position" content="2" />
+                                <span property="name">Our purpose</span><meta property="position" content="2" />
                             </span>
                         </div>
                     </div>
@@ -32,43 +32,18 @@ include('header.php');?>
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
                         <div class="main-content-inner">
                             <div class="content text-content shadow content-padding">
+                                <p>At SFR Medical, our purpose is to provide high quality expert witness services that empower legal professionals to secure just outcomes for their clients. Our mission is to provide the highest level of expertise and objectivity for every case. We strive to ensure that our clients have access to the most credible and reliable experts available through a careful selection and vetting process.</p>
 
-                                <h4>We produce the following types of medical evidence for UK Police Forces:</h4>
+                                <p>Compliance is our middle name, and we keep data and information security at the core of our operations. We are dedicated to serving the legal community with professionalism and respect with a commitment to provide the highest quality expert reports with excellence, integrity, and impartiality. Ultimately, our goal is to help our clients navigate the complexities of the legal system and achieve the best possible results for their clients.</p>
                                 
-                                <ul class="iconlist iconlist iconlist-icon-small">
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>SFR1 (MG22B):</span> This report describes the injuries sustained and treatment received by a victim. For SFR1s, we offer a standard service (within 10 days) and an urgent service (within 24 hours).
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>SFR2 (MG22D):</span> This report addresses specific questions that are raised by the prosecution, defence or court.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>3D Body Mapping/Visual Reconstruction (3DVR/MG22D):</span> This report illustrates an exact injury in great detail, instantly portraying the gravitas of an injury to non-medical personnel.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>Full expert witness reports:</span> Our network of experts able to provide insights and opinions on key medical topics in the Criminal Justice System within these reports. Our experts work across several disciplines, including but not limited to: Emergency Medicine, Trauma and Critical Care.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>Medical third party material:</span> If you only require the medical records for a particular case, we can obtain them on your behalf.
-                                        </div>
-                                    </li>
-                                </ul>
-                                <!-- <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div> -->
+                                <p>Please reach out to <a href="mailto:expert.witness@sfrmedical.com">expert.witness@sfrmedical.com</a></p>
+
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid section_next_prev">
                                     <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-left">
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-police-our-solution"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Our solution</a>
+                                                <a class="next_prev" href="<?php echo $url;?>for-solicitor-our-products"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Our products</a>
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>
@@ -77,7 +52,7 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-right" >
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-police-our-purpose">Our purpose&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                <a class="next_prev" href="<?php echo $url;?>for-solicitor-our-solution">Our solution&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>

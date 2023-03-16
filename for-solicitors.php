@@ -14,8 +14,8 @@ include('header.php');?>
             <div id="content-body" class="content-body">
                 <div class="content-body-inner wrap">
                     <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                     </div>
                     <!-- The main content -->
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
@@ -36,18 +36,18 @@ include('header.php');?>
                                     <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-left">
-                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 <a class="next_prev" href="<?php echo $url;?>for-police-our-purpose"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;For police - our purpose</a>
-                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-right" >
-                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 <a class="next_prev" href="<?php echo $url;?>for-public-our-purpose">For public - our purpose&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>
                                     </div>

@@ -16,7 +16,6 @@
                     </div> -->
                     <div class="footer-meta">
                         <div class="social-icons">
-                            <!--<img src="assets/image001.png" alt="" style=" max-width:200px;width=100%;">-->
                             <a title="SFR Medical" href="https://www.facebook.com/sfrmedical/" data-tooltip="" target="_blank"><i class="fa fa-facebook-f"></i></a>
                             <a title="SFR Medical" href="https://twitter.com/sfrmedical" data-tooltip="" target="_blank"><i class="fa fa-twitter"></i></a>
                             <!--<a title="SFR Medical" href="https://www.instagram.com/sfrmedical/" data-tooltip="" target="_blank"><i class="fa fa-instagram"></i></a>-->
@@ -73,7 +72,14 @@
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For public our products" href="<?php echo $url;?>for-public-our-products">Our products</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor" href="#">For solicitor</a>
+                            <ul class="dw-sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our purpose" href="<?php echo $url;?>for-solicitor-our-purpose">Our purpose </a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our solution" href="<?php echo $url;?>for-solicitor-our-solution">Our solution</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitor our products" href="<?php echo $url;?>for-solicitor-our-products">Our products</a></li>
+                            </ul>
+                        </li>
+                        <!--<li class="menu-item menu-item-type-post_type menu-item-object-page dw-mega-menu-hover item-945"><a title="For solicitors" href="<?php echo $url;?>for-solicitors">For solicitors</a></li>-->
                     </ul>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-flyout dw-mega-menu-hover item-155"><a title="About us" href="#">ABOUT US</a>
@@ -741,9 +747,11 @@ $('#myCookies').on('shown.bs.modal', function () {
 // });
 </script>
 <!--/ Modal -->
+<?php if (isset($page) and $page != '404 Error') {?>
 <!--Support Board-->
 <script id="sbinit" src="https://sfrmedical.com/supportboard/js/main.js"></script>
 <!--/ Support Board-->
+<?php } ?>
 </body>
 
 </html>

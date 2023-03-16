@@ -15,7 +15,7 @@ include('header.php'); ?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
                                                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-                                                <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="">
+                                                <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" >
                                                     <!-- START REVOLUTION SLIDER 5.4.7.2 fullwidth mode -->
                                                     <div id="rev_slider_2_1" class="rev_slider fullwidthabanner section-hide"  data-version="5.4.7.2">
                                                         <ul>
@@ -50,13 +50,6 @@ include('header.php'); ?>
                                                                         <a class="button  " href="<?php echo $url;?>contracting-process">LEARN MORE</a>
                                                                     </div>
                                                                 </div>
-                                                                <!-- <div class="tp-caption   tp-resizeme" id="slide-5-layer-1" data-x="center" data-hoffset="" data-y="center" data-voffset="65" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: px; line-height: px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
-                                                                    <div class="slider-caption-3">
-                                                                        <h1 class="slider-title">A delivery partner police forces can count on</h1>
-                                                                        <h3 class="slider-subtitle">Our process reduces wait times by 96% and introduces an 84% efficiency savings</h3>
-                                                                        <a class="button white large" href="<?php echo $url;?>partner-with-us">Discover more</a>
-                                                                    </div>
-                                                                </div> -->
                                                             </li>
                                                             <!-- SLIDE  -->
                                                             <li data-index="rs-6" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="assets/upload/slider_2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -78,13 +71,6 @@ include('header.php'); ?>
                                                                         <a class="button  " href="<?php echo $url;?>products-and-services">LEARN MORE</a>
                                                                     </div>
                                                                 </div>
-                                                                <!-- <div class="tp-caption   tp-resizeme" id="slide-6-layer-1" data-x="right" data-hoffset="70" data-y="center" data-voffset="65" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: px; line-height: px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
-                                                                    <div class="slider-caption-2">
-                                                                        <h1 class="slider-title">Compliance is our middle name</h1>
-                                                                        <h3 class="slider-subtitle">From securing victim consent to collaborating with NHS <br/>Digital to working with procurement frameworks, <br/>everything we do takes GDPR into account</h3>
-                                                                        <a class="button white large" href="<?php echo $url;?>partner-with-us">Discover more</a>
-                                                                    </div>
-                                                                </div> -->
                                                             </li>
                                                         </ul>
                                                         <script>
@@ -295,6 +281,15 @@ include('header.php'); ?>
                                                             <!-- <p><span style="color: #8d8ea3"></p> -->
                                                         </div>
                                                     </li>
+                                                    <li>
+                                                        <!-- <div class="shadow-effect m-10"> -->
+                                                        <div class="iconlist-item-icon"><img alt="SFR requests processed" src="assets/blue/medical-institute.png"></div>
+                                                        <div class="iconlist-item-content">
+                                                            <p></p>
+                                                            <h4 class="vc-counter">Our network of Medical Institutions<br><b> >3000</b></h4>
+                                                            <!-- <p><span style="color: #8d8ea3"></p> -->
+                                                        </div>
+                                                    </li>
                                                 </ul>
                                                 <div class="vc_empty_space h-20"><span class="vc_empty_space_inner"></span></div>
                                                 <!-- <a class="button " href="<?php echo $url;?>our-story">LEARN MORE </a> -->
@@ -390,6 +385,59 @@ include('header.php'); ?>
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <p>If a standard SFR1 request has a member of a UK Police Force, an NHS worker or an employee of the UK Criminal Justice System as the patient, that SFR1 is provided free-of-cost. Additionally, this applies whether the individual was on-duty or off-duty at the time that the injuries were sustained. </p>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- <div class="vc_empty_space h-40"><span class="vc_empty_space_inner"></span></div> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div id="newslatter" data-vc-full-width="true" data-vc-full-width-init="true"  class="vc_row wpb_row vc_row-fluid vc_custom_1518405675791 vc_row-has-fill  section-padding" >
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex text-center">
+                                                    <div class="wpb_column vc_column_container vc_col-md-12 vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                                        <div class="vc_column-inner">
+                                                                            <div class="wpb_wrapper">
+                                                                                <h3 class="vc_custom_heading">Connect with us</h3>
+                                                                                <p>Subscribe now for SFR Medical's newsletter</p>
+                                                                                <!-- <div class="vc_empty_space h-20"><span class="vc_empty_space_inner"></span></div> -->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                                                                        <div class="vc_column-inner">
+                                                                            <div class="wpb_wrapper">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wpb_column vc_column_container vc_col-sm-7">
+                                                                        <div class="vc_column-inner">
+                                                                            <div class="wpb_wrapper">
+                                                                                <form id="newslatter_form" class="mc4wp-form mc4wp-form-1024" method="post" action="#" autocomplete="off">
+                                                                                    <div class="mc4wp-form-fields">
+                                                                                        <p class="sign-up">
+                                                                                            <input type="email" name="txt_email" placeholder="Your email address" required="" /><br />
+                                                                                            <input type="submit" name="submit" value="Subscribe" />
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="newslatter_response"></div>
+                                                                                    <div class="newslatter_error"></div>
+                                                                                </form>
+                                                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <!-- <div class="vc_empty_space h-40"><span class="vc_empty_space_inner"></span></div> -->
@@ -763,10 +811,6 @@ include('header.php'); ?>
                                     </div>
                                 </div>
                                 <div class="vc_row-full-width vc_clearfix"></div>
-
-
-                               
-                             
                             </div>
                             <!-- /.content -->
 
@@ -783,3 +827,47 @@ include('header.php'); ?>
         <!-- /.site-content -->
 
 <?php include('footer.php');?>
+<script>
+////////////////////////////// Newslatter form
+$("form#newslatter_form").submit(function(e) {
+    e.preventDefault();    
+    var formData = new FormData(this);
+    console.log(formData);
+    $.ajax({
+        url: 'mail.php?id=newslatter',
+        type: 'POST',
+        data: formData,
+        beforeSend: function(){
+            // $('#spin').fadeIn("slow").html('<p>Sending...</p>');
+            $('form#newslatter_form').find('input[type=submit]').prop('disabled', true);
+        },
+        complete: function(){
+            // $('#spin').fadeIn("slow").html('');
+            $('form#newslatter_form').find('input[type=submit]').prop('disabled', false);
+        },
+        success: function (response) {
+            var aa = $.trim(response);
+            console.log(aa);
+            if ( aa === "true" ){
+                $('form#newslatter_form').find("input[type=email]").val("");
+                $('.newslatter_response').fadeIn("slow").html('<div class="section-heading"><p class="response">Thank you for subscription!.</p></div>');
+                setTimeout(function(){ 
+                    $('.newslatter_response').fadeIn("slow").html(''); 
+                }, 10000);
+                $('.newslatter_error').fadeIn("slow").html('');
+              // window.location = web_url+'home.php';
+              // $("#cform")[0].reset();
+            } else {
+              $('.newslatter_error').fadeIn("slow").html('<div class="section-heading"><p class="response">Something went wrong, plz try after sometime !!!.</p></div>');
+              setTimeout(function(){ 
+                    $('.newslatter_error').fadeIn("slow").html(''); 
+                }, 10000);
+            }
+        },
+        cache: false,
+        contentType: false,
+        processData: false
+    });
+    return false;
+});
+    </script>

@@ -1,4 +1,4 @@
-<?php $page = "For police - Our products";
+<?php $page = "For solicitor - Our solution";
 include('meta_tags.php');
 include('header.php');?>
 
@@ -7,15 +7,15 @@ include('header.php');?>
             <div class="content-header content-header-inline wrap">
                 <div class="content-header-inner wrap ">
                     <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Our products</h2>
+                    <h2 class="main-headig">Our solution</h2>
                     <div class="breadcrumbs">
                         <div class="breadcrumbs-inner">
                             <!-- Breadcrumb NavXT 6.2.1 -->
                             <span property="itemListElement" typeof="ListItem">
-                                <span property="name">For police</span><meta property="position" content="1" />
+                                <span property="name">For solicitors</span><meta property="position" content="1" />
                             </span>
                             <span property="itemListElement" typeof="ListItem">
-                                <span property="name">Our products</span><meta property="position" content="2" />
+                                <span property="name">Our solution</span><meta property="position" content="2" />
                             </span>
                         </div>
                     </div>
@@ -32,43 +32,33 @@ include('header.php');?>
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
                         <div class="main-content-inner">
                             <div class="content text-content shadow content-padding">
-
-                                <h4>We produce the following types of medical evidence for UK Police Forces:</h4>
-                                
-                                <ul class="iconlist iconlist iconlist-icon-small">
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>SFR1 (MG22B):</span> This report describes the injuries sustained and treatment received by a victim. For SFR1s, we offer a standard service (within 10 days) and an urgent service (within 24 hours).
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>SFR2 (MG22D):</span> This report addresses specific questions that are raised by the prosecution, defence or court.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>3D Body Mapping/Visual Reconstruction (3DVR/MG22D):</span> This report illustrates an exact injury in great detail, instantly portraying the gravitas of an injury to non-medical personnel.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>Full expert witness reports:</span> Our network of experts able to provide insights and opinions on key medical topics in the Criminal Justice System within these reports. Our experts work across several disciplines, including but not limited to: Emergency Medicine, Trauma and Critical Care.
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>Medical third party material:</span> If you only require the medical records for a particular case, we can obtain them on your behalf.
-                                        </div>
+                                <h4>SFR Medical provides quick and efficient expert witness reports to</h4>
+                                <ul>
+                                    <li><b>Opine on your case:</b> Our experts can provide expert testimony to support your case, adding credibility and weight to your arguments.</li>
+                                    <li><b>Save time and resources:</b> By outsourcing the expert witness element of your case, you can free up valuable time and resources to focus on other aspects of the case.</li>
+                                    <li><b>Gain a competitive edge:</b> With access to highly qualified and experienced experts, you can gain a competitive edge and provide your clients with the best possible service.</li>
+                                </ul>
+                                <div class="vc_empty_space h-20"><span class="vc_empty_space_inner"></span></div>
+                                <h4>Why Choose Our Expert Witness Service?</h4>
+                                <ul>
+                                    <li><b>Reliable:</b> SFR Medical has served as a conduit between law enforcement and medical health services for the past four years by promptly delivering medical evidence and expert witness reports. The testimonials from SFR Medical’s customers provide first hand insights into the company’s efficiency and compliance.</li>
+                                    <li><b>Credible Experts:</b> Our expert witness panel covers a wide range of specialties. Our experts have extensive experience in their respective fields and are highly regarded in their field. They have a proven track record of providing reliable, accurate and impartial testimony, and are well equipped to handle even the most complex cases.</li>
+                                    <li><b>Quick and Effective Support:</b> Our expert witness service is designed to be efficient and effective, with a dedicated team available to support you every step of the way. From initial consultation to final report, we work closely with you to ensure that you receive the highest quality expert testimony.
+                                        <ul>
+                                            <li><b>Competitive Pricing:</b> SFR Medical’s expert witness service is competitively priced to ensure that you get the best possible value for your investment.</li>
+                                            <li><b>Compliance:</b> We take privacy very seriously and have put several processes into place to ensure that our products, services and workstreams are compliant.</li>
+                                        </ul>
                                     </li>
                                 </ul>
-                                <!-- <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div> -->
+                                <div class="vc_empty_space h-20"><span class="vc_empty_space_inner"></span></div>
+                                <p>Please reach out to <a href="mailto:expert.witness@sfrmedical.com">expert.witness@sfrmedical.com</a></p>
+
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid section_next_prev">
                                     <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-left">
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-police-our-solution"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Our solution</a>
+                                                <a class="next_prev" href="<?php echo $url;?>for-solicitor-our-purpose"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Our purpose</a>
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>
@@ -77,7 +67,7 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-right" >
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-police-our-purpose">Our purpose&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                <a class="next_prev" href="<?php echo $url;?>for-solicitor-our-products">Our products&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                                                 <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                             </div>
                                         </div>

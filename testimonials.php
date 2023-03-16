@@ -13,8 +13,8 @@ include('header.php');?>
             <div id="content-body" class="content-body">
                 <div class="content-body-inner wrap">
                     <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927 vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:rgb(2,6,32);border-color:rgba(2,6,32,0.1);" class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
+                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
                     </div>
                     <!-- The main content -->
                     <main id="main-content" class="main-content" itemprop="mainContentOfPage">
@@ -22,7 +22,7 @@ include('header.php');?>
                             <div class="content text-content shadow content-padding">
                                 <div class="vc_row-full-width vc_clearfix"></div>
                                 <div class="vc_row wpb_row" >
-                                    <div class="wpb_column vc_column_container vc_col-sm-12" style="margin-bottom: 30px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 mb-30">
                                         <div class="vc_column-inner">
                                             <div class="content-header-inner ">
                                                 <h3>Our reports are provided quickly and are of excellent quality:</h3>
@@ -175,7 +175,7 @@ include('header.php');?>
                                                             </div>
 
                                                         </div>
- <!-- THAMES VALLEY POLICE FORCE -->
+                                                            
                                                         <div class="testimonial1">
 
                                                             <div class="testimonial-desc">
@@ -873,7 +873,7 @@ include('header.php');?>
                                 <hr>
                                 <div class="vc_row-full-width vc_clearfix"></div>
                                 <div class="vc_row wpb_row">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12" style="margin-bottom: 30px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 mb-30">
                                         <div class="vc_column-inner">
                                             <div class="content-header-inner ">
                                                 <h3>Our reports expediate the progress of investigations:</h3>
@@ -1209,7 +1209,7 @@ include('header.php');?>
                                 <hr>
                                 <div class="vc_row-full-width vc_clearfix"></div>
                                 <div class="vc_row wpb_row" >
-                                    <div class="wpb_column vc_column_container vc_col-sm-12" style="margin-bottom: 30px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 mb-30">
                                         <div class="vc_column-inner">
                                             <div class="content-header-inner ">
                                                 <h3>Our service is easy to use:</h3>
@@ -1765,7 +1765,7 @@ include('header.php');?>
                                 <hr>
                                 <div class="vc_row-full-width vc_clearfix"></div>
                                 <div class="vc_row wpb_row" >
-                                    <div class="wpb_column vc_column_container vc_col-sm-12" style="margin-bottom: 30px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12 mb-30">
                                         <div class="vc_column-inner">
                                             <div class="content-header-inner ">
                                                 <h3>Our team are professional, responsive and helpful:</h3>
@@ -2048,9 +2048,9 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-left">
                                                 
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                     <a class="next_prev" href="<?php echo $url;?>products-and-services"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Products & services</a>
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 
                                             </div>
                                         </div>
@@ -2059,9 +2059,9 @@ include('header.php');?>
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper text-content text-right" >
                                                 
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                     <a class="next_prev" href="<?php echo $url;?>our-service">Our service&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                                    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                    <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
                                                 
                                             </div>
                                         </div>
@@ -2077,9 +2077,7 @@ include('header.php');?>
 
                     <aside class="main-sidebar">
                         <div class="main-sidebar-inner">
-                            
                             <?php include('sidebar.php');?>
-                            
                         </div>
                     </aside>
                     <!-- /.sidebar -->
