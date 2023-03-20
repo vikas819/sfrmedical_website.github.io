@@ -2524,24 +2524,34 @@ class PHPMailer {
   
   
   public function sendnoreplyMail($to,$from,$message,$subject){
-   
-        $this->IsSMTP();
-        $this->Host = "www.sfrmedical.com";  /*SMTP server*/
         
+        
+        // $this->IsSMTP();
+        $this->SMTPOptions = array(
+            'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+            )
+        );
+        $this->Host = "smtp.sfrmedical.com";  /*SMTP server*/
+        $this->IsHTML(true);
         $this->SMTPAuth = true;
-        //$this->SMTPSecure = "";
-        $this->Port = 25;
+        $this->CharSet   = "UTF-8";
+        // $this->SMTPDebug = 2;  
+        $this->SMTPSecure = "ssl";
+        $this->Port = 465;
         $this->Username = "webmail@sfrmedical.com";  /*Username*/
         $this->Password = "SFRMedical@2023";    /**Password**/
-        $this->From = "contact@sfrmedical.com";    /*From address required*/
+        $this->From = "donotreply@sfrmedical.com";    /*From address required*/
         $this->FromName = "SFR Medical";
         $this->SingleTo   = TRUE;
         // $t= explode(',',$to);
         // foreach($t as $x => $y){
+        $this->setFrom($from);
         $this->AddAddress($to);
         // }
         $this->AddReplyTo("");
-        $this->IsHTML(true);
         $this->Subject = $subject;
         $this->Body = $message;
         //$this->AltBody = "This is the body in plain text for non-HTML mail clients";
@@ -2551,7 +2561,7 @@ class PHPMailer {
         echo "Mailer Error: " . $this->ErrorInfo;
         exit;
         }else{
-          
+          echo "Message sent. <p>";
         }
   }
 

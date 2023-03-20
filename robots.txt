@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /assets/
+Disallow: /beta/
+Disallow: /dist/
+Disallow: /force/
+Disallow: /guide/
+Sitemap: https://sfrmedical.com/sitemap.xml
