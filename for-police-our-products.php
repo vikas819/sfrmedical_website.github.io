@@ -61,6 +61,11 @@ include('header.php');?>
                                         <div class="iconlist-item-content"><span>Medical third party material:</span> If you only require the medical records for a particular case, we can obtain them on your behalf.
                                         </div>
                                     </li>
+                                    <li> 
+                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
+                                        <div class="iconlist-item-content"><span>Pagination:</span> Pagination is the practice of organizing the pages of legal documents, such as contracts, court documents, and legal briefs.
+                                        </div>
+                                    </li>
                                 </ul>
                                 <!-- <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div> -->
                                 <div class="vc_row wpb_row vc_inner vc_row-fluid section_next_prev">

@@ -96,25 +96,6 @@ include('header.php');?>
                                             </div>
                                             <!-- /.post-content-inner -->
 
-                                
-                                            <div class="post-meta-tag">
-                                                <div class="post-tags">
-                                                    <a href="#" rel="tag">backlogged cases</a>
-                                                    <a href="#" rel="tag">barristers</a> 
-                                                    <a href="#" rel="tag">court</a> 
-                                                    <a href="#" rel="tag">court cases</a> 
-                                                    <a href="#" rel="tag">COVID-19</a> 
-                                                    <a href="#" rel="tag">criminal</a> 
-                                                    <a href="#" rel="tag">judges</a> 
-                                                    <a href="#" rel="tag">judicial</a> 
-                                                    <a href="#" rel="tag">justice system</a> 
-                                                    <a href="#" rel="tag">law enforcement</a> 
-                                                    <a href="#" rel="tag">prosecution</a> 
-                                                    <a href="#" rel="tag">virtual court</a> 
-                                                    <a href="#" rel="tag">virtual law</a></div>
-                                                </div>
-
-                                            </div>
                                         <!-- /.post-content -->
                                     </div>
                                     <!-- /.post-inner -->
