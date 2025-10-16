@@ -1,35 +1,26 @@
-<?php $page = "Contracting process";
-include('meta_tags.php');
-include('header.php');?>
-
-        <div id="site-content" class="site-content">
-
-            <div class="content-header content-header-inline wrap">
-                <div class="content-header-inner wrap ">
-                    <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Contracting process</h2>
+<?php $page ="Contracting process";
+include("meta_tags.php"); 
+include("header.php"); ?>
+		<section class="page-title p_relative pt_40 " style="background-color: #fff;">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1 class="d_block fs_30 lh_40 fw_medium">Contracting process</h1>
+                    <hr>
                 </div>
             </div>
+        </section>
+		<section class="event-details p_relative pb_40">
+            <div class="auto-container">
+                <div class="lower-content p_relative d_block">
+                    <div class="row clearfix">
+                        <div class="col-lg-8 col-md-9 col-sm-12 content-column">
+                            <div class="content-box shadow pr_20 pl_20 pt_30 pb_30">
+                            	<p>The route to market can be variable, contingent on a force’s requirements and internal processes.</p>
 
-            <div id="content-body" class="content-body">
-                <div class="content-body-inner wrap">
-                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-                    </div>
-                    <!-- The main content -->
-                    <main id="main-content" class="main-content" itemprop="mainContentOfPage">
-                        <div class="main-content-inner">
-                        	<div class="content text-content shadow content-padding">
-                            	<p>The route to market can be variable, contingent on a force’s requirements and internal processes. </p>
+								<p>However, below is a typical path to contract and execution which can be used as a guide. We will work with you to make sure you get what you need, in order to go live as quickly as is needed. We also have templates that can help with each stage of the process so please ask for examples – we are happy to share!</p>
 
-								<p>However, below is a typical path to contract and execution which can be used as a guide. We will work with you to make sure you get what you need, in order to go live as quickly as is needed. We also have templates that can help with each stage of the process so please ask for examples – we are happy to share!</p><br>
-
-	                            <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-								
-
-	                            <div class="table-responsive">
-	                                <table class="table table-bordered " >
+								<div class="table-responsive">
+	                                <table class="table table-bordered ">
 	                                  <thead>
 	                                    <tr>
 	                                      <th width="40%" class="pricing-header">Step</th>
@@ -64,7 +55,7 @@ include('header.php');?>
 	                                      <td class="pricing-col2">x</td>
 	                                    </tr>
 	                                    <tr>
-	                                      <td class="pricing-col1"><a href="<?php echo $url;?>procurement-process">Procurement process</a></td>
+	                                      <td class="pricing-col1"><a href="https://localhost/sfrweb/procurement-process">Procurement process</a></td>
 	                                      <td class="pricing-col2">Variable</td>
 	                                      <td class="pricing-col2"></td>
 	                                      <td class="pricing-col2">x</td>
@@ -120,46 +111,24 @@ include('header.php');?>
 	                                  </tbody>
 	                                </table>
 	                            </div>
-	                            <div class="vc_row wpb_row vc_inner vc_row-fluid section_next_prev">
-	                                <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
-	                                    <div class="vc_column-inner">
-	                                        <div class="wpb_wrapper text-content text-left">
-	                                            <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-	                                            <a class="next_prev" href="<?php echo $url;?>governance-and-compliance"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Governance & Compliance</a>
-	                                            <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                                <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
-	                                    <div class="vc_column-inner">
-	                                        <div class="wpb_wrapper text-content text-right" >
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>procurement-process">Procurement process&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                            </div>
-
+	                            <div class="link mt_20">
+					                <div class="page-inner clearfix">
+					                    <div class="left-column pull-left blue-color fs_18 lh_22 fw_bold">
+					                        <i class="fa fa-chevron-left fs_14"></i>&nbsp;&nbsp;<a href="<?php echo @$weburl;?>governance-and-compliance">  Governance & Compliance</a>
+					                    </div>
+					                    <div class="right-column pull-right blue-color fs_18 lh_22 fw_bold">
+					                    	<a href="<?php echo @$weburl;?>procurement-process">  Procurement Process </a>&nbsp;&nbsp;<i class="fa fa-chevron-right fs_14"></i>
+					                    </div>
+					                </div>
+					            </div>
+                            </div>
                            
-                        	</div>
                         </div>
-                        <!-- /.main-content-inner -->
-                    </main>
-                    <!-- /.main-content -->
-                    <aside class="main-sidebar">
-                        <div class="main-sidebar-inner">
-                            
-                            <?php include('sidebar.php');?>
-                            
-                        </div>
-                    </aside>
-
+                        <?php include("sidebar.php"); ?>
+                        
+                    </div>
                 </div>
-                <!-- /.content-body-inner -->
             </div>
-            <!-- /.content-body -->
-        </div>
-        <!-- /.site-content -->
+        </section>
 
-<?php include('footer.php');?>
+<?php include("footer.php"); ?>

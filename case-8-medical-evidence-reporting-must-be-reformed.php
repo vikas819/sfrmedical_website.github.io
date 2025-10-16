@@ -1,55 +1,27 @@
-<?php $page = "Medical evidence reporting must be reformed";
-include('meta_tags.php');
-include('header.php');?>
-<!-- medical-evidence-reporting-must-be-reformed -->
-        <div id="site-content" class="site-content">
-
-            <div class="content-header content-header-inline wrap">
-                <div class="content-header-inner wrap ">
-                    <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Medical evidence reporting must be reformed</h2>
+<?php $page ="Medical evidence reporting must be reformed";
+include("meta_tags.php"); 
+include("header.php"); ?>
+		<section class="page-title p_relative pt_40  " style="background-color: #fff;">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1 class="d_block fs_30 lh_40 fw_medium">Medical evidence reporting must be reformed</h1>
+                    <hr>
                 </div>
             </div>
-
-            <div id="content-body" class="content-body">
-                <div class="content-body-inner wrap">
-                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-                    </div>
-                    <!-- The main content -->
-                    <main id="main-content" class="main-content" itemprop="mainContentOfPage">
-                        <div class="main-content-inner">
-                            <div class="content shadow content-padding">
-                                <div id="post-1709" class="post post-1709 single-post">
-                                    <div class="post-inner">
-                                        <div class="post-header">
-                                            <h2 class="post-title" itemprop="headline" style="display: none;">Medical evidence reporting must be reformed<br /></h2>
-
-                                            <div class="post-meta-group">
-                                                <ul class="meta-header">
-                                                    <li class="author">
-                                                        <i class="ion-android-contact size-21"></i>
-                                                        <a href="#" title="Posts by DR JOHANN GRUNDLINGH " rel="author">DR JOHANN GRUNDLINGH </a>
-                                                    </li>   
-                                                    <li class="post-date">
-                                                        <i class="ion-android-alarm-clock size-21"></i>
-                                                        <span class="post-day">JANUARY 14, 2021</span>
-                                                    </li>   
-                                                </ul>  
-                                            </div>
-
-                                            <!-- <h1 class="page-title-inner">Blog</h1> -->
-                                        </div>
-
-                                        <!-- <div class="post-thumbnail">
-                                            <img src="assets/blog8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-responsive" alt="Medical evidence reporting must be reformed" />
-                                        </div> -->
-                                        <!-- /.post-thumbnail -->
-
-                                        <div class="post-content" itemprop="text">
-                                            <div class="post-content-inner">
-                                                <p>‘Innocent until proven guilty’ is one of the founding principles of the UK justice system and a key part of upholding this is the accumulation and presentation of clear, factual evidence.</p>
+        </section>
+		<section class="event-details p_relative pb_40">
+            <div class="auto-container">
+                <div class="lower-content p_relative d_block">
+                    <div class="row clearfix">
+                        <div class="col-lg-8 col-md-9 col-sm-12 content-column">
+                            <div class="content-box shadow pr_20 pl_20 pt_30 pb_50">
+                            	<ul class="post-info clearfix">
+                                    <li class="p_relative d_iblock fs_14 fw_medium pl_20 mr_5"><i class="far fa-user"></i><a href="javascript:;" class="d_iblock hov_color">&nbsp;&nbsp; DR JOHANN GRUNDLINGH </a></li>
+                                    <li class="p_relative d_iblock fs_14 fw_medium pl_20"><i class="far fa-clock"></i><a href="javascript:;" class="d_iblock hov_color">&nbsp;&nbsp; JANUARY 14, 2021</a></li>
+                                </ul>
+                                <hr>
+                            	<!-- <img src="assets/blog2.jpg" class="img-responsive mb_20" alt="Medical evidence reporting must be reformed" /> -->
+                            	<p>‘Innocent until proven guilty’ is one of the founding principles of the UK justice system and a key part of upholding this is the accumulation and presentation of clear, factual evidence.</p>
 
                                                 <p>
                                                     This is especially important with regards to medical evidence when charging and detaining criminal suspects. This evidence can be the deciding factor in a wide range of cases such as murder charges, domestic violence trials or
@@ -95,35 +67,13 @@ include('header.php');?>
                                                     Police forces work incredibly hard to ensure justice is served swiftly and fairly and to keep us safe. Through working with organisations that can remove some of the obstacles that obstruct them doing this, such as the managing
                                                     and preparation of medical evidence, it will provide them with the time and resources to do what they do best and ensure criminals are prosecuted quickly and our streets remain safe now and in the future.
                                                 </p>
-                                            </div>
-                                            <!-- /.post-content-inner -->
-                                        </div>
-
-
-                                        <!-- /.post-content -->
-                                    </div>
-                                    <!-- /.post-inner -->
-                                </div>
-                                <!-- /#post-1709 -->
                             </div>
                         </div>
-                        <!-- /.main-content-inner -->
-                    </main>
-
-                    <!-- /.main-content -->
-                    <aside class="main-sidebar">
-                        <div class="main-sidebar-inner">
-                            
-                            <?php include('sidebar.php');?>
-                            
-                        </div>
-                    </aside>
-
+                        <?php include("sidebar.php"); ?>
+                        
+                    </div>
                 </div>
-                <!-- /.content-body-inner -->
             </div>
-            <!-- /.content-body -->
-        </div>
-        <!-- /.site-content -->
+        </section>
 
-<?php include('footer.php');?>
+<?php include("footer.php"); ?>

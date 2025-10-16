@@ -1,92 +1,54 @@
-<?php $page = "For public - Our products";
-include('meta_tags.php');
-include('header.php');?>
-
-        <div id="site-content" class="site-content">
-
-            <div class="content-header content-header-inline wrap">
-                <div class="content-header-inner wrap ">
-                    <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Our products</h2>
-                    <div class="breadcrumbs">
-                        <div class="breadcrumbs-inner">
-                            <!-- Breadcrumb NavXT 6.2.1 -->
-                            <span property="itemListElement" typeof="ListItem">
-                                <span property="name">For public</span><meta property="position" content="1" />
-                            </span>
-                            <span property="itemListElement" typeof="ListItem">
-                                <span property="name">Our products</span><meta property="position" content="2" />
-                            </span>
-                        </div>
-                    </div>
+<?php $page ="For public - Our products";
+include("meta_tags.php"); 
+include("header.php"); ?>
+		<section class="page-title p_relative pt_40 " style="background-color: #fff;">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1 class="d_block fs_30 lh_40 fw_medium">Our products</h1>
+                    <ul class="bread-crumb p_relative d_block clearfix">
+                        <li class="p_relative d_iblock fs_16 lh_22 blue-color pr_15 mr_5">
+                        	<a href="<?php echo @$weburl;?>" class="blue-color hov-color">Home</a>
+                        </li>
+                        <li class="p_relative d_iblock fs_16 lh_22 blue-color">For public</li>
+                    </ul>
+                    <hr>
                 </div>
             </div>
-
-            <div id="content-body" class="content-body">
-                <div class="content-body-inner wrap">
-                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-                    </div>
-                    <!-- The main content -->
-                    <main id="main-content" class="main-content" itemprop="mainContentOfPage">
-                        <div class="main-content-inner">
-                            <div class="content text-content shadow content-padding">
-
-                                <p>We produce the following types of medical evidence for individual members of the public:</p>
-                                <ul class="iconlist iconlist iconlist-icon-small">
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>SFR1 (MG22B):</span> This report describes the injuries you suffered and the treatment you received by the medical practitioner(s). For SFR1s, we offer a standard service (within 30 days) and an urgent service (within 1 week). 
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="iconlist-item-icon"><i class="sl-check"></i><span class="shapes"></span></div>
-                                        <div class="iconlist-item-content"><span>Medical third party material:</span> If you only require the medical records for a particular case, we can obtain them on your behalf.
-                                        </div>
-                                    </li>
+        </section>
+		<section class="event-details p_relative pb_40">
+            <div class="auto-container">
+                <div class="lower-content p_relative d_block">
+                    <div class="row clearfix">
+                        <div class="col-lg-8 col-md-9 col-sm-12 content-column">
+                            <div class="content-box shadow pr_20 pl_20 pt_30 pb_30">
+                            	<p class="mb_20">We produce the following types of medical evidence for individual members of the public:</p>
+								<ul class="list clearfix mb_45">
+                                    <li class="style1 p_relative d_block fs_16 lh_22 fw_normal pl_50 mt_30 pb_30"><b class="blue-color fw_medium fs_18">SFR1 (MG22B):</b> This report describes the injuries you suffered and the treatment you received by the medical practitioner(s). For SFR1s, we offer a standard service (within 30 days) and an urgent service (within 1 week).</li>
+                                    <li class="style1 p_relative d_block fs_16 lh_22 fw_normal pl_50 mt_30 pb_30"><b class="blue-color fw_medium fs_18">Medical third party material:</b> If you only require the medical records for a particular case, we can obtain them on your behalf.</li>
                                 </ul>
-
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid section_next_prev">
-                                    <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper text-content text-left">
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-public-our-solution"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp;&nbsp;Our solution</a>
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                            </div>
+                                <div class="link mt_20">
+                                    <div class="page-inner clearfix">
+                                        <div class="left-column pull-left blue-color fs_18 lh_22 fw_bold">
+                                            <i class="fa fa-chevron-left fs_14"></i>&nbsp;&nbsp;<a href="<?php echo @$weburl;?>for-public-our-solution">Our Solution</a>
                                         </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-md-6 vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper text-content text-right" >
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                                <a class="next_prev" href="<?php echo $url;?>for-public-our-purpose">Our purpose&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                                                <div class="vc_empty_space h-10"><span class="vc_empty_space_inner"></span></div>
-                                            </div>
+                                        <div class="right-column pull-right blue-color fs_18 lh_22 fw_bold">
+                                            <a href="<?php echo @$weburl;?>for-public-our-purpose"> Our Purpose </a>&nbsp;&nbsp;<i class="fa fa-chevron-right fs_14"></i>
                                         </div>
                                     </div>
                                 </div>
-                              
-                            
                             </div>
                         </div>
-                        <!-- /.main-content-inner -->
-                    </main>
-                    <!-- /.main-content -->
-                    <aside class="main-sidebar">
-                        <div class="main-sidebar-inner">
-                            
-                            <?php include('sidebar.php');?>
-                            
-                        </div>
-                    </aside>
-
+                        <?php include("sidebar.php"); ?>
+                        
+                    </div>
                 </div>
-                <!-- /.content-body-inner -->
             </div>
-            <!-- /.content-body -->
-        </div>
-        <!-- /.site-content -->
+        </section>
 
-<?php include('footer.php');?>
+
+<?php include("footer.php"); ?>
+ 
+
+
+
+

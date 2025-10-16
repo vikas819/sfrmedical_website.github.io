@@ -1,9 +1,23 @@
-<?php 
+<?php
+// Set the time for caching to 7 days (you can adjust this value according to your needs)
+$expires = 60 * 60  * 24 * 365;
+// Set the caching headers
+header("Pragma: public");
+header("Cache-Control: max-age=" . $expires);
+header('Expires: ' . gmdate('D, d M Y H:i:s', time() + $expires) . ' GMT');
+
 if (isset($page) and $page == 'Home') { 
 	$pageUrl   = "";
 	$pageTitle = "MedTech company providing medical evidence for UK Police";
-	$pageDesc  = "SFR Medical, a London-based, social impact MedTech company, aims to reform the complex and inefficient interface between criminal justice and healthcare. ";
+	$pageDesc  = "SFR Medical, a MedTech company has revolutionised the process of delivering quality medical evidence & expert opinion, making it easy & cost-effective.";
 	$pageKeys  = "SFR Medical, medical, social impact, medtech, medical evidence, social impact, crime, victims, criminal justice, uk police";
+	$pageImage = "assets/logo.png";
+}
+if (isset($page) and $page == 'SA-Expetwitness') { 
+	$pageUrl   = "";
+	$pageTitle = "South Africa Expert Witness";
+	$pageDesc  = "SFR Medical, a MedTech company has revolutionised the process of delivering quality medical evidence & expert opinion, making it easy & cost-effective.";
+	$pageKeys  = "SFR Medical, medical, social impact, medtech, medical evidence, social impact, crime, victims, criminal justice, uk police, South Africa, Expert Witness";
 	$pageImage = "assets/logo.png";
 }
 //SFR Medical is a MedTech company providing medical evidence for UK Police Forces. We’ve revolutionised the process; making it easy and cost-effective for high quality medical evidence to be obtained.
@@ -51,7 +65,7 @@ if (isset($page) and $page == 'For police - Our solution') {
 if (isset($page) and $page == 'For police - Our products') {
 	$pageUrl   = "for-police-our-Products";
 	$pageTitle = "For Police - Our Products";
-	$pageDesc  = "We provide medical evidence that officers can use to charge suspects in cases of volent crime. Read how our service works and what else we can do for you. ";
+	$pageDesc  = "We provide medical evidence that officers can use to charge suspects in cases of violent crime. Read how our service works and what else we can do for you. ";
 	$pageKeys  = "SFR Medical, SFR1, SFR2, MG11, medical evidence, medical notes, criminal justice, violent crimes, expert opinions, justice, crime, evidence";
 	$pageImage = "assets/logo.png";
 }
@@ -132,7 +146,7 @@ if (isset($page) and $page == 'Awards and recognition') {
 	$pageUrl   = "awards-and-recognition";
 	$pageTitle = "Awards & recognition";
 	$pageDesc  = "We're honoured (and humbled) to be recognised by a number of prominant UK institutions. ";
-	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK";
+	$pageKeys  = "SFR Medical, awards, recognition, incubator, emerging entrepreneur, IUK, Santander University";
 	$pageImage = "assets/logo.png";
 }
 
@@ -168,7 +182,7 @@ if (isset($page) and $page == 'Governance & compliance') {
 	$pageImage = "assets/logo.png";
 }
 
-if (isset($page) and $page == 'Contact') {
+if (isset($page) and $page == 'Contact-us') {
 	$pageUrl   = "contact-us";
 	$pageTitle = "Get in Touch";
 	$pageDesc  = "You've got questions. We’ve got answers. Reach out today. We’re here to help!";
@@ -176,15 +190,31 @@ if (isset($page) and $page == 'Contact') {
 	$pageImage = "assets/logo.png";
 }
 
-if (isset($page) and $page == 'Privacy & Policy') {
+if (isset($page) and $page == 'Join Our Team') {
+	$pageUrl   = "join-our-team";
+	$pageTitle = "Join Our Team";
+	$pageDesc  = "You've got questions. We’ve got answers. Reach out today. We’re here to help!";
+	$pageKeys  = "SFR Medical, email, contact, questions, support, medical evidence";
+	$pageImage = "assets/logo.png";
+}
+
+if (isset($page) and $page == 'Privacy Policy') {
 	$pageUrl   = "privacy-policy";
-	$pageTitle = "Privacy & Policy";
-	$pageDesc  = "Privacy & Policy";
+	$pageTitle = "Privacy Policy";
+	$pageDesc  = "Privacy Policy";
 	$pageKeys  = "SFR Medical, Privacy, Policy, Privacy & Policy";
 	$pageImage = "assets/logo.png";
 }
 
-if (isset($page) and $page == '404 Error') {
+if (isset($page) and $page == 'Cookie Policy') {
+	$pageUrl   = "cookie-policy";
+	$pageTitle = "Cookie Policy";
+	$pageDesc  = "Cookie Policy";
+	$pageKeys  = "SFR Medical, Cookie, Policy, Cookie Policy";
+	$pageImage = "assets/logo.png";
+}
+
+if (isset($page) and $page == '404') {
 	$pageUrl   = "404-error";
 	$pageTitle = "404 Error";
 	$pageDesc  = "404 Error";
@@ -195,7 +225,7 @@ if (isset($page) and $page == '404 Error') {
 if (isset($page) and $page == 'SFR Medical was born out of frustration') {
 	$pageUrl   = "sfr-medical-was-born-out-of-frustration";
 	$pageTitle = "SFR Medical was born out of frustration";
-	$pageDesc  = "As a medical doctor who founded this company, I can recall countless occasions, standing in the Emergency Department of the Royal London Hospital, looking at the lifeless body of a young victim lying on the trolley in front of me.";
+	$pageDesc  = "As a medical doctor who founded this company, I can recall countless occasions, standing in the Emergency Department of the Royal London Hospital, looking ...";
 	$pageKeys  = "Blog, Criminal justice, Hospital, Medtech, Police, Public safety";
 	$pageImage = "assets/blog1.jpg";
 }
@@ -203,7 +233,7 @@ if (isset($page) and $page == 'SFR Medical was born out of frustration') {
 if (isset($page) and $page == 'A Conflict of expectations') {
 	$pageUrl   = "conflict-of-expectations";
 	$pageTitle = "A Conflict of expectations";
-	$pageDesc  = "As I medical doctor, I – and my colleagues – focus on providing excellent medical care to victims, but unfortunately, usually actively avoid getting involved with providing forensic evidence to facilitate court proceedings.";
+	$pageDesc  = "As I medical doctor, I – and my colleagues – focus on providing excellent medical care to victims, but unfortunately, usually actively avoid getting involved with ...";
 	$pageKeys  = "Blog, coronavirus, COVID-19, Criminal justice, Injustice, Medical evidence, NHS, Pandemic, Police, Police officer, Victims";
 	$pageImage = "assets/blog2.jpg";
 }
@@ -211,7 +241,7 @@ if (isset($page) and $page == 'A Conflict of expectations') {
 if (isset($page) and $page == 'Adapting to a new world') {
 	$pageUrl   = "adapting-to-a-new-world";
 	$pageTitle = "Adapting to a new world";
-	$pageDesc  = " In this unprecedented time, things are changing rapidly. These days, we are all required to take a step back to see how we can adapt and modify our behaviours and actions in a world that looks a lot different than it did five or      six weeks ago.";
+	$pageDesc  = " In this unprecedented time, things are changing rapidly. These days, we are all required to take a step back to see how we can adapt and modify our behaviours ...";
 	$pageKeys  = " Blog, Coronavirus, Criminal justice, Justice, Medical evidence, UKcourts, Victim";
 	$pageImage = "assets/blog3.jpg";
 }
@@ -227,7 +257,7 @@ if (isset($page) and $page == 'Taking a stand') {
 if (isset($page) and $page == 'Justice will be served. It’ll just look a little different') {
 	$pageUrl   = "justice-will-be-served-itll-just-look-a-little-different";
 	$pageTitle = "Justice will be served. It’ll just look a little different";
-	$pageDesc  = "Richard Susskind may have a crystal ball, legally speaking. In 2019 he published a book called Online Courts and the Future of Justice; the prophecies of which have likely been debated and discussed endlessly. ";
+	$pageDesc  = "Richard Susskind may have a crystal ball, legally speaking. In 2019 he published a book called Online Courts and the Future of Justice; the prophecies ... ";
 	$pageKeys  = "Blog, Black Lives Matter, CPS free, Criminal Justice, Injustice, NHS, Police, Police officer, Victims";
 	$pageImage = "assets/blog5.jpg";
 }
@@ -243,7 +273,7 @@ if (isset($page) and $page == 'Protection, by design') {
 if (isset($page) and $page == 'Predictive policing: a glimpse of our future or a thing of the past?') {
 	$pageUrl   = "predictive-policing-a-glimpse-of-our-future-or-a-thing-of-the-past";
 	$pageTitle = "Predictive policing: a glimpse of our future or a thing of the past?";
-	$pageDesc  = "Since its formal introduction in 2011, “predictive policing” has been more controversial than not. The media touted it as a “revolutionary innovation” capable of “stopping crime before it starts” (LA Times).";
+	$pageDesc  = "Since its formal introduction in 2011, “predictive policing” has been more controversial than not. The media touted it as a “revolutionary innovation” ...";
 	$pageKeys  = "Blog, Bias data, Bit data, Criminal Justice advancements, Future of policing, Innovation, Police bias, Police technology, Predictive policing, Victim justice";
 	$pageImage = "assets/blog7.jpg";
 }
@@ -251,28 +281,64 @@ if (isset($page) and $page == 'Predictive policing: a glimpse of our future or a
 if (isset($page) and $page == 'Medical evidence reporting must be reformed') {
 	$pageUrl   = "medical-evidence-reporting-must-be-reformed";
 	$pageTitle = "Medical evidence reporting must be reformed";
-	$pageDesc  = "‘Innocent until proven guilty’ is one of the founding principles of the UK justice system and a key part of upholding this is the accumulation and presentation of clear, factual evidence.";
+	$pageDesc  = "‘Innocent until proven guilty’ is one of the founding principles of the UK justice system and a key part of upholding this is the accumulation and ...";
 	$pageKeys  = "Blog, Criminal justice, Evidence, Medical, Medical evidence, Police, Victims";
 	$pageImage = "assets/logo.png";
 }
 
-
 if (isset($page) and $page == 'Streamline processes to help tackle the COVID-19 court backlog') {
 	$pageUrl   = "streamline-processes-to-help-tackle-the-covid-court-backlog";
 	$pageTitle = "Streamline processes to help tackle the COVID-19 court backlog";
-	$pageDesc  = "The COVID-19 pandemic has disrupted countless industries since it emerged last year and one area where it is having a particularly damaging effect is on our criminal justice system.";
+	$pageDesc  = "The COVID-19 pandemic has disrupted countless industries since it emerged last year and one area where it is having a particularly damaging effect ...";
 	$pageKeys  = "Blog, COVID-19, Crime, Justice, Medical, Police, Victim";
 	$pageImage = "assets/logo.png";
 }
-
 
 if (isset($page) and $page == 'The importance of expert witnesses in the UK') {
 	$pageUrl   = "the-importance-of-expert-witnesses-in-the-UK";
 	$pageTitle = "The importance of expert witnesses in the UK";
 	$pageDesc  = "An expert witness is an independent party who - due to their gained knowledge through education, training, and professional experiences – has the right expertise";
-	$pageKeys  = "expert witness, evidence, court cases, criminal cases, cases, injury, legal professionals, judges, juries, UK";
-	$pageImage = "assets/logo.png";
+	$pageKeys  = "Blog, expert witness, evidence, court cases, criminal cases, cases, injury, legal professionals, judges, juries, UK";
+	$pageImage = "assets/blog8.jpg";
 }
 
+if (isset($page) and $page == 'Personal injury and Clinical negligence claims involving children - key legal considerations for solicitors') {
+	$pageUrl   = "personal-injury-and-Clinical-negligence-claims-involving-children-key-legal-considerations-for-solicitors";
+	$pageTitle = "Personal injury and Clinical negligence claims involving children - key legal considerations for solicitors";
+	$pageDesc  = "Medical negligence claims involving children often arise from delayed diagnosis of common illnesses or errors in treatment.";
+	$pageKeys  = "Blog, Medical Negligence Claims, Clinical Negligence Claims, Personal Injury claim, Claims, Chil dren, solicitors, treatment, UK";
+	$pageImage = "assets/blog9.jpg";
+}
 
+if (isset($page) and $page == 'Impact of Pagination Software for Solicitors') {
+	$pageUrl   = "impact-of-pagination-software-for-solicitors";
+	$pageTitle = "Impact of Pagination Software for Solicitors";
+	$pageDesc  = "The impact of pagination software for solicitors in the UK is significant. Pagination software has revolutionized the way legal documents are prepared, managed and presented, making the process faster, more accurate and more efficient.";
+	$pageKeys  = "Blog, Pagination, Solicitors, Pagination software, legal documents, Increased efficiency, Improved accuracy, Better organization, Enhanced presentation, Cost savings, UK";
+	$pageImage = "assets/blog12.jpg";
+}
+
+$data = array(
+    '@context' => 'http://schema.org',
+    '@type' => 'Organization',
+    'name' => 'Streamlined Forensic Reporting Medical Limited',
+    'description' => 'SFR Medical is a London-based, social impact MedTech company founded by NHS Consultant Dr Johann Grundlingh which aims to reform the complex and inefficient medical evidence collection process for crime victims. Our solution reduces average waiting times for medical reports from 67 to under 10 days and results in 84% efficiency savings. As the only supplier of these services in the UK, SFR Medical provides medical evidence at an affordable price, in an acceptable time frame, and with the quality that is required.',
+    'url' => 'https://sfrmedical.com',
+    'logo' => 'https://sfrmedical.com/assets/logo.png',
+    'contactPoint' => array(
+        '@type' => 'ContactPoint',
+        'telephone' => '+44 1234 943 111',
+        'contactType' => 'customer support'
+    )
+);
+
+$jsonLD = json_encode($data);
+// 'address' => array(
+//     '@type' => 'PostalAddress',
+//     'streetAddress' => '123 Main St',
+//     'addressLocality' => 'City',
+//     'addressRegion' => 'State',
+//     'postalCode' => '12345',
+//     'addressCountry' => 'Country'
+// ),
 ?>

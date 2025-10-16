@@ -1,56 +1,27 @@
-<?php $page = "Justice will be served. It’ll just look a little different";
-include('meta_tags.php');
-include('header.php');?>
-<!-- justice-will-be-served-itll-just-look-a-little-different -->
-        <div id="site-content" class="site-content">
-
-            <div class="content-header content-header-inline wrap">
-                <div class="content-header-inner wrap ">
-                    <!--<h2>WHO WE ARE</h2>-->
-                    <h2 class="main-headig">Justice will be served. It’ll just look a little different</h2>
+<?php $page ="Justice will be served. It’ll just look a little different";
+include("meta_tags.php"); 
+include("header.php"); ?>
+		<section class="page-title p_relative pt_40  " style="background-color: #fff;">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1 class="d_block fs_30 lh_40 fw_medium">Justice will be served. It’ll just look a little different</h1>
+                    <hr>
                 </div>
             </div>
-
-            <div id="content-body" class="content-body">
-                <div class="content-body-inner wrap">
-                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_custom_1510028822927  vc_custom_1510028822927">
-                        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-                        <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-                    </div>
-                    <!-- The main content -->
-                    <main id="main-content" class="main-content" itemprop="mainContentOfPage">
-                        <div class="main-content-inner">
-                            <div class="content shadow content-padding">
-                                <div id="post-1709" class="post post-1709 single-post">
-                                    <div class="post-inner">
-                                        <div class="post-header">
-                                            <h2 class="post-title" itemprop="headline" style="display: none;">Justice will be served. It’ll just look a little different<br /></h2>
-
-                                            <div class="post-meta-group">
-                                                <ul class="meta-header">
-                                                    <li class="author">
-                                                        <i class="ion-android-contact size-21"></i>
-                                                        <a href="#" title="Posts by LISA HELFER" rel="author">LISA HELFER</a>
-                                                    </li>
-                                                    <li class="post-date">
-                                                        <i class="ion-android-alarm-clock size-21"></i>
-                                                        <span class="post-day">AUGUST 13, 2020</span>
-                                                    </li>   
-                                                </ul>
-                                            </div>
-
-                                            <!-- <h1 class="page-title-inner">Blog</h1> -->
-                                        </div>
-
-                                        <div class="post-thumbnail">
-                                            <img src="assets/blog5.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image img-responsive" alt="Justice will be served. It’ll just look a little different" />
-                                        </div>
-                                        <!-- /.post-thumbnail -->
-
-                                        <div class="post-content" itemprop="text">
-                                            <div class="post-content-inner">
-                    
-                                                <p>Richard Susskind may have a crystal ball, legally speaking. In 2019 he published a book called <a href="http://www.susskind.com/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"><em>Online Courts and the Future of Justice</em></a>; the prophecies of which have likely been debated and discussed endlessly. While these conversations and subsequent holding of virtual trials were undoubtedly accelerated by the current pandemic, COVID-19 simply exposed an inefficient legal system. We found ourselves in a situation that forced us to change the way we operated by showing us that there is a better way to do things. It also disputed long held assumptions about eye contact, body language, and facial expressions not being effective unless experienced in-person.</p>
+        </section>
+		<section class="event-details p_relative pb_40">
+            <div class="auto-container">
+                <div class="lower-content p_relative d_block">
+                    <div class="row clearfix">
+                        <div class="col-lg-8 col-md-9 col-sm-12 content-column">
+                            <div class="content-box shadow pr_20 pl_20 pt_30 pb_50">
+                            	<ul class="post-info clearfix">
+                                    <li class="p_relative d_iblock fs_14 fw_medium pl_20 mr_5"><i class="far fa-user"></i><a href="javascript:;" class="d_iblock hov_color">&nbsp;&nbsp;  LISA HELFER  </a></li>
+                                    <li class="p_relative d_iblock fs_14 fw_medium pl_20"><i class="far fa-clock"></i><a href="javascript:;" class="d_iblock hov_color">&nbsp;&nbsp; AUGUST 13, 2020</a></li>
+                                </ul>
+                                <hr>
+                            	<img src="assets/blog5.jpg" class="img-responsive mb_20" alt="Justice will be served. It’ll just look a little different" />
+                            	 <p>Richard Susskind may have a crystal ball, legally speaking. In 2019 he published a book called <a href="http://www.susskind.com/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener"><em>Online Courts and the Future of Justice</em></a>; the prophecies of which have likely been debated and discussed endlessly. While these conversations and subsequent holding of virtual trials were undoubtedly accelerated by the current pandemic, COVID-19 simply exposed an inefficient legal system. We found ourselves in a situation that forced us to change the way we operated by showing us that there is a better way to do things. It also disputed long held assumptions about eye contact, body language, and facial expressions not being effective unless experienced in-person.</p>
 
                                                 <p>But will we embrace any changes, if and when society returns to resemble what it looked like in February 2020? Or are we moving towards a Judge Dredd culture, that allocates legal power to the few, or a Mad Max civilization, which errs on the side of outlaws and lawlessness?</p>
 
@@ -66,7 +37,14 @@ include('header.php');?>
 
                                                 <p>It seems that measures that increase not only efficiency, but safety, are the no brainer ones to continue with:</p>
 
-                                                <ul><li>Allow testimony to be given remotely if it reduces a victim’s anxiety about confronting their accused attacker, or if being in a familiar environment makes them feel secure.</li><li>Support the right of a juror to participate from home, as individual circumstances may prohibit travel.</li><li>Provide easy access to tools which help victims, witnesses, suspects, jurors and others who are not familiar with the law understand the processes and the evidence.</li><li>Conduct virtual mock jury exercises (fact or fiction<a href="#_edn5">[v]</a>) to work out the kinks before going to trial (virtual or IRL).</li><li>Take advantage of access to virtual focus groups to test the impact of evidence and the power of demonstratives, to see what will hold up in court.</li><li>Use virtual communications tools, i.e. WhatsApp, SMS and webchats, along with Artificial Intelligence and Machine Learning platforms to complete time-consuming administrative tasks, so specialists can focus on what they do best.</li></ul>
+                                                <ul class="list clearfix mb_20">
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Allow testimony to be given remotely if it reduces a victim’s anxiety about confronting their accused attacker, or if being in a familiar environment makes them feel secure.</li>
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Support the right of a juror to participate from home, as individual circumstances may prohibit travel.</li>
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Provide easy access to tools which help victims, witnesses, suspects, jurors and others who are not familiar with the law understand the processes and the evidence.</li>
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Conduct virtual mock jury exercises (fact or fiction<a href="#_edn5">[v]</a>) to work out the kinks before going to trial (virtual or IRL).</li>
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Take advantage of access to virtual focus groups to test the impact of evidence and the power of demonstratives, to see what will hold up in court.</li>
+                                                    <li class="p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10">Use virtual communications tools, i.e. WhatsApp, SMS and webchats, along with Artificial Intelligence and Machine Learning platforms to complete time-consuming administrative tasks, so specialists can focus on what they do best.</li>
+                                                </ul>
 
                                                 <p>And if Zoom backgrounds or arguing a case from your reception room makes the process feel less official, let’s build virtual courtrooms that mimic real ones. Imagine an environment which allows you to bring up case law references with a simple verbal command, seamlessly switch to pre-recorded depositions, or walk through 3D re-enactments of crime scenes.</p>
 
@@ -93,33 +71,14 @@ include('header.php');?>
                                                 <p><a href="#_ednref4">[iv]</a> <a href="https://www.law.ox.ac.uk/business-law-blog/blog/2020/03/virtual-justice-time-covid-19" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">https://www.law.ox.ac.uk/business-law-blog/blog/2020/03/virtual-justice-time-covid-19</a></p>
 
                                                 <p><a href="#_ednref5">[v]</a> <a href="https://www.suanningle.com/number-11-of-20-for-20-practice-development/" target="_blank" aria-label="undefined (opens in a new tab)" rel="noreferrer noopener">https://www.suanningle.com/number-11-of-20-for-20-practice-development/</a></p>
-                                            </div>
-                                            <!-- /.post-content-inner -->
-
-                                        <!-- /.post-content -->
-                                    </div>
-                                    <!-- /.post-inner -->
-                                </div>
-                                <!-- /#post-1709 -->
+                                              
                             </div>
                         </div>
-                        <!-- /.main-content-inner -->
-                    </main>
-
-                    <!-- /.main-content -->
-                    <aside class="main-sidebar">
-                        <div class="main-sidebar-inner">
-                            
-                            <?php include('sidebar.php');?>
-                            
-                        </div>
-                    </aside>
-
+                        <?php include("sidebar.php"); ?>
+                        
+                    </div>
                 </div>
-                <!-- /.content-body-inner -->
             </div>
-            <!-- /.content-body -->
-        </div>
-        <!-- /.site-content -->
+        </section>
 
-<?php include('footer.php');?>
+<?php include("footer.php"); ?>
