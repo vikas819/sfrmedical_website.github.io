@@ -47,6 +47,12 @@
 				    color: #fff;
 				    border-color: #273272;
 				}
+                .single-item-carousel .post-title {
+				    font-size: 16px;
+				    line-height: 22px;
+				    font-weight: 500;
+				    color: #273272;
+				}
 
             </style>
             <div class="mb_20">
@@ -55,7 +61,7 @@
             <div class="post-inner">
                 <ul class="single-item-carousel owl-carousel owl-theme owl-dots-none">
                     <li class="post">
-                        <p>About your experience of the work-life balance at SFR Medical.</p>
+                        <p class="post-title">About your experience of the work-life balance at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Flexible working hours and
                                 no limit on leave days make this role fantastic!</p>
@@ -77,7 +83,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Flexible, only contracted
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Flexible, only contracted
                                 for few hours</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -86,7 +92,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>working hours are good,
                                 previously i was working longer shifts to get things done but following recent guidance
                                 i have not been doing this. I do think the holiday entitlement is very small, compared
@@ -216,7 +222,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Excellent work-life balance
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Excellent work-life balance
                             </p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -225,8 +231,8 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Great, I love being able to
+                            </li> -->
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Great, I love being able to
                                 work at home.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -235,7 +241,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The company is so focused
                                 on wellbeing of the team, and they are so understanding that there are other things
                                 going on in our lives, and allow us to be looked after by a brilliant team and have so
@@ -252,7 +258,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the rapport between you and others of the same role at SFR Medical.</p>
+                        <p class="post-title">About the rapport between you and others of the same role at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Respectful but friendly;
                                 all RMs are available for support.</p>
@@ -264,7 +270,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't speak to my peers
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't speak to my peers
                                 on a day to day basis so don't really have a rapport. However, they are always warm,
                                 friendly and helpful if I do need to speak to them.</p>
                             	<div class="star-rating mb_10">
@@ -274,7 +280,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Always friendly</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -284,7 +290,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't really speak to any
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't really speak to any
                                 of the other CRMS except for the allocated 10 minutes before OPS update meetings and the
                                 2 people that join the friday ops team chat meetings.</p>
                             	<div class="star-rating mb_10">
@@ -294,7 +300,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Colleagues are very kind,
                                 comfortable with speaking and liaising with them.</p>
                             	<div class="star-rating mb_10">
@@ -406,16 +412,16 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good rapport with some,
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good rapport with some,
                                 hard to connect with others</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Wonderful, I have great
                                 relationships with most CRMs.</p>
                             	<div class="star-rating mb_10">
@@ -441,7 +447,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the rapport between you and seniors of your team (e.g. supervisors, leads, COO).</p>
+                        <p class="post-title">About the rapport between you and seniors of your team (e.g. supervisors, leads, COO).</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Easy to contact for support
                                 if needed; readily take on improvement advice</p>
@@ -464,7 +470,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -472,7 +478,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Management easy to talk to
                                 and quick to respond to queries.</p>
                             	<div class="star-rating mb_10">
@@ -527,7 +533,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -535,7 +541,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I feel I have a great
                                 rapport with seniors of my team, they are responsive, helpful and I appreciate that I am
                                 given feedback in a constructive and respectful manner.</p>
@@ -628,7 +634,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the career opportunities at SFR Medical.</p>
+                        <p class="post-title">About the career opportunities at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I started as an MT in
                                 November 2021 and quickly moved up to an RM and now also cover the RL role when required
@@ -650,11 +656,11 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
+                                    <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No raise in payment in last
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No raise in payment in last
                                 3 plus years in this position</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -663,8 +669,8 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Internal job roles are not
+                            </li> -->
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Internal job roles are not
                                 advertised to other team members, we have had multiple supervisors now where no one was
                                 told there was even a supervisory role available and people were chosen by preference
                                 from upper management and then a surprise to everyone when announced. It would be good
@@ -679,7 +685,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The opportunity to move
                                 roles within the company is good, allowing you to choose which role suits you best.</p>
                             	<div class="star-rating mb_10">
@@ -703,7 +709,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I am not sure what
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I am not sure what
                                 opportunities are there for RMs.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -712,7 +718,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I'm not currently aware of
                                 any opportunities for progression but I'm sure they're available.</p>
                             	<div class="star-rating mb_10">
@@ -768,7 +774,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I am not sure what
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I am not sure what
                                 opportunities are at SFR Medical, I am still new.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -777,7 +783,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>As I started as a CRM in
                                 April 2024 I feel the career opportunities are excellent as I have quickly moved roles
                                 to Operational Supervisor</p>
@@ -796,7 +802,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
+                                    <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
@@ -807,7 +813,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star empty"></i>
+                                    <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
@@ -826,7 +832,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the support available to you at SFR Medical.</p>
+                        <p class="post-title">About the support available to you at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Support is readily
                                 available via Teams/emails</p>
@@ -907,7 +913,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -915,7 +921,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I feel supported in my role
                                 by all senior members of staff, they are understanding, kind and responsive.</p>
                             	<div class="star-rating mb_10">
@@ -1003,7 +1009,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the culture and values at SFR Medical.</p>
+                        <p class="post-title">About the culture and values at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I've had no issues with the
                                 culture or values at SFR Medical.</p>
@@ -1034,7 +1040,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>good</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>good</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -1042,7 +1048,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The values of the company
                                 is great, it allows you to make a positive impact for victims</p>
                             	<div class="star-rating mb_10">
@@ -1085,7 +1091,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -1093,7 +1099,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I believe everyone working
                                 at SFR Medical has shared values. Everyone strives to support the Police, CPS and
                                 victims in their role and I feel that is the culture of SFR Medical. Everyone's main
@@ -1161,7 +1167,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Not much to say about this
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Not much to say about this
                                 as I am not sure I understand the question. We all have different values in life, and we
                                 all fit in well.</p>
                             	<div class="star-rating mb_10">
@@ -1171,7 +1177,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Extremely diverse, people
                                 from all different backgrounds and careers. The amount I have learned from the role is
                                 just so vast! It is a great job for networking. Values are amazing, with wellbeing,
@@ -1188,7 +1194,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About the income and benefits you receive in your role at SFR Medical.</p>
+                        <p class="post-title">About the income and benefits you receive in your role at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>"Income is fantastic and,
                                 as an independent contractor, the flexible working hours and leave availability are
@@ -1212,7 +1218,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Contract based, no
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Contract based, no
                                 benefits, no leave, no raise</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -1221,7 +1227,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>wages good, would like more
                                 holiday allowance, other benefits not really applicable to me</p>
                             	<div class="star-rating mb_10">
@@ -1232,7 +1238,7 @@
                                     <i class="fas fa-star empty"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Not aware of any specific
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Not aware of any specific
                                 benefits other than the car scheme. In re. income/salary it is ok</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
@@ -1241,7 +1247,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I feel we are paid a
                                 relatively well income - it would be beneficial to know/understand the pay structure a
                                 bit more in terms of how pay rises work (if they are an annual thing or based on
@@ -1257,7 +1263,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't have any benefits
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don't have any benefits
                                 offered by the company. The payment has not changed since I joined the company at the
                                 end of December 2022.</p>
                             	<div class="star-rating mb_10">
@@ -1267,7 +1273,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The income is reflective of
                                 the work and responsibilities, and the benefits are helpful for taking care of both your
                                 short-term and long-term well-being.</p>
@@ -1385,7 +1391,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>About how well informed you are of progress and changes within the Operations team?</p>
+                        <p class="post-title">About how well informed you are of progress and changes within the Operations team?</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Generally well informed via
                                 the Operation Team Updates meeting and Teams/emails, however occasionally changes have
@@ -1408,7 +1414,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Good</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -1416,7 +1422,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>always emailed or included
                                 in meetings</p>
                             	<div class="star-rating mb_10">
@@ -1470,7 +1476,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>It is difficult to keep up
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>It is difficult to keep up
                                 sometimes, as when I come back after 4 days off - anything posted on Teams/sent via
                                 email can get lost with all posts/emails that come in after. I think it would be
                                 beneficial to either create a URCs chat, or use the chat feature on the URC
@@ -1483,7 +1489,7 @@
                                     <i class="fas fa-star empty"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I am well informed of
                                 progress and changes within the Operations team as we are updated in our Operations Team
                                 Updates Meetings</p>
@@ -1574,7 +1580,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>Review process and feedback on your performance at SFR Medical.</p>
+                        <p class="post-title">Review process and feedback on your performance at SFR Medical.</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Allows for RMs to provide
                                 feedback regularly and amend any errors or changes made to the request reviewing
@@ -1659,7 +1665,7 @@
                                     <i class="fas fa-star filled"></i>
                                 </div>
                             </li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>No issues.</p>
                             	<div class="star-rating mb_10">
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star filled"></i>
@@ -1667,7 +1673,7 @@
                                     <i class="fas fa-star filled"></i>
                                     <i class="fas fa-star empty"></i>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The review process and
                                 feedback is useful and beneficial.</p>
                             	<div class="star-rating mb_10">
@@ -1755,7 +1761,7 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>What do you love about working at SFR Medical?</p>
+                        <p class="post-title">What do you love about working at SFR Medical?</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>The flexible working hours
                                 that allow me to be present with the children!</p></li>
@@ -1807,12 +1813,12 @@
                         </ul>
                     </li>
                     <li class="post">
-                        <p>What do you dislike about working at SFR Medical?</p>
+                        <p class="post-title">What do you dislike about working at SFR Medical?</p>
                         <ul class="list clearfix mb_20">
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing to really dislike
                                 only that portal issues (mainly being slow) can have a significant impact on request
                                 reviewing etc (when the IT team are making changes behind the scenes).</p></li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing!</p></li>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing!</p></li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing at this stage</p></li>
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>A lot of the time I don't
                                 talk to anyone all day.</p></li>
@@ -1832,8 +1838,8 @@
                                 can be incredibly stressful/busy.</p></li>
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Not applicable, there is
                                 nothing I dislike.</p></li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing.</p></li>
-                            <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>N/A.</p></li>
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>Nothing.</p></li> -->
+                            <!-- <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>N/A.</p></li> -->
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>I don’t think there is
                                 anything I can think of.</p></li>
                             <li class="feedback p_relative d_block fs_16 lh_22 fw_normal pl_20 mb_10 mt_10"><p>There is nothing I dislike
